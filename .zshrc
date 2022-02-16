@@ -213,11 +213,6 @@ if [ -f ~/.alias ]; then
     . ~/.alias
 fi
 
-#add profile
-if [ -f ~/.profile ]; then
-    . ~/.profile
-fi
-
 # enable auto-suggestions based on the history
 if [ -f /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
     . /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
